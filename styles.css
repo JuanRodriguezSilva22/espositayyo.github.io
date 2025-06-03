@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffafc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #f8c8dc;
+    padding: 20px;
+}
+
+.galeria {
+    padding: 20px;
+}
+
+.fotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.fotos img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+footer {
+    background-color: #f0b6cf;
+    padding: 10px;
+    margin-top: 20px;
+}
